@@ -1,4 +1,10 @@
 
+# ESTE ES UN H1
+
+## Este es un H2
+
+### Este es un H3
+
 
 ``` js
 setcpm(20)
@@ -16,3 +22,14 @@ let guitar = note("36 50 25").sound("gm_electric_guitar_muted");
 
 $guitar : guitar
 ```
+
+<img width="886" height="300" alt="image" src="https://github.com/user-attachments/assets/40efa6cb-43d2-4dc6-8c2c-8b3044adaf8c" />
+
+
+
+# ESTE ES UN H1
+
+## Este es un H2
+
+### Este es un H3
+
