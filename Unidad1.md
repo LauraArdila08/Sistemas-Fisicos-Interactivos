@@ -1,10 +1,9 @@
 
-# ESTE ES UN H1
+# UNIT 1 - AUDIO
 
-## Este es un H2
+## 04-Actividad de exploración :musical_score:
 
-### Este es un H3
-
+Mezcla sonora batería más guitarra :drum: :guitar:
 
 ``` js
 setcpm(20)
@@ -18,18 +17,11 @@ let drum = stack(
 
 $drum:drum
 
-let guitar = note("36 50 25").sound("gm_electric_guitar_muted");
+let guitar = note("<[40 52 ~ 47] [52 ~ 40 47]> <[40 52] 55>")
+  .sound("gm_electric_guitar_muted").gain("<0.8 1 0.75>").room(0.3)
+  .delay(0.35).delaytime(0.1875).jux(rev).hpf(180).orbit(2)
 
-$guitar : guitar
+$guitar: guitar
 ```
 
-<img width="886" height="300" alt="image" src="https://github.com/user-attachments/assets/40efa6cb-43d2-4dc6-8c2c-8b3044adaf8c" />
-
-
-
-# ESTE ES UN H1
-
-## Este es un H2
-
-### Este es un H3
 
