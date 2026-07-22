@@ -3,7 +3,7 @@
 
 ## 04-Actividad de exploración :musical_score:
 
-Mezcla sonora batería más guitarra :drum: :guitar:
+Mezcla sonora batería más guitarra más bajo :drum: :guitar: :musical_note:
 
 ``` js
 setcpm(20)
@@ -22,6 +22,12 @@ let guitar = note("<[40 52 ~ 47] [52 ~ 40 47]> <[40 52] 55>")
   .delay(0.35).delaytime(0.1875).jux(rev).hpf(180).orbit(2)
 
 $guitar: guitar
+
+let bass = note("28 [~ 28] ~ [28 31]")
+  .sound("gm_acoustic_bass").gain(0.85).decay(0.15)
+  .slow(8).room(0.05).orbit(3)
+
+$bass: bass
 ```
 
 
