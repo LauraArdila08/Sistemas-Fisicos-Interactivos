@@ -1,0 +1,32 @@
+# UNIDAD 2
+## Actividad 04
+### Reto de diseño: sistema visual generativo parametrizable
+
+###1. Intención visual
+Emotividad, alegría y danza/movimiento.
+
+###2. Entidades que existirán en el sistema
+Campos de valores, líneas y color.
+
+###3. Las relaciones y reglas que producirán el comportamiento
+Un campo deforma a otro y sus valores determinan cambio en posición y color.
+
+###4. Los invariantes que conservarán su identidad
+Las líneas nunca serán deformadas del todo.
+
+###5. Aquello que podrá variar en cada ejecución
+Posición y color de las líneas.
+
+
+##Adelanto 01
+
+> [!NOTE]
+> Logro: Crear líneas y moverlas de posición usand un LFO
+
+-Problemas: las líneas se mueven en -x y necesito que solo ocurra en el eje y
+
+> [!IMPORTANT]
+>Tarea: que las líneas se muevan solo en x y el movimiento no sea como puntos fijos sino que se muevan como hilos enredados.
+
+Evidencia avance 01:
+
