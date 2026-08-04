@@ -2,19 +2,19 @@
 ## Actividad 04
 ### Reto de diseño: sistema visual generativo parametrizable
 
-###1. Intención visual
+### 1. Intención visual
 Emotividad, alegría y danza/movimiento.
 
-###2. Entidades que existirán en el sistema
+### 2. Entidades que existirán en el sistema
 Campos de valores, líneas y color.
 
-###3. Las relaciones y reglas que producirán el comportamiento
+### 3. Las relaciones y reglas que producirán el comportamiento
 Un campo deforma a otro y sus valores determinan cambio en posición y color.
 
-###4. Los invariantes que conservarán su identidad
+### 4. Los invariantes que conservarán su identidad
 Las líneas nunca serán deformadas del todo.
 
-###5. Aquello que podrá variar en cada ejecución
+### 5. Aquello que podrá variar en cada ejecución
 Posición y color de las líneas.
 
 
