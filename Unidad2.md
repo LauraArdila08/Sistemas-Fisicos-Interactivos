@@ -42,5 +42,20 @@ Con SOPs hice cosas básicas como las líneas que se deformaran y un poquito de 
 >En este punto fue muy complejo entender cómo pasar de SOP a POP pero en realidad era muy simple. Al probar con el twist vi que las lineas asemejaban a la silueta de una persona bailando.
 > Enseñanza: Los POP son mucho mejor de manejar que los SOP, son como SOP pero modernos.
 
+Evidencia avance 02:
 <img width="1182" height="558" alt="image" src="https://github.com/user-attachments/assets/6ba0e308-7faa-4969-9d6d-9cb5dcc01b1d" />
 
+## Adelanto 3
+> [!NOTE]
+> Logro: El sistema "funciona". Esta relativamente terminado a como queria que se viera terminado.
+
+Agregué un lookuptex con el fin de aplicarle color, también un LFO para variar la ramp que vendría siendo al paleta de colores y finalmente agregué un render simple para ver como se iba viendo.
+
+> [!IMPORTANT]
+>La familia de resultados no me desagrada pero se asemeja a un barrilete bailando que a la idea original de líneas entrelazadas como hilos bailando y alegre.
+
+Evidencia 03:
+<img width="1061" height="682" alt="image" src="https://github.com/user-attachments/assets/afbb21ff-dcdc-4942-852e-74fc8c73d972" />
+
+Red "completa"
+<img width="1917" height="762" alt="image" src="https://github.com/user-attachments/assets/eff8c829-f6eb-4b0b-ad71-77628bbebaf8" />
