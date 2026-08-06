@@ -18,7 +18,7 @@ Las líneas nunca serán deformadas del todo.
 Posición y color de las líneas.
 
 
-##Adelanto 01
+## Adelanto 01
 
 > [!NOTE]
 > Logro: Crear líneas y moverlas de posición usand un LFO
