@@ -9,7 +9,7 @@ Emotividad, alegría y danza/movimiento.
 Campos de valores, líneas y color.
 
 ### 3. Las relaciones y reglas que producirán el comportamiento
-Un campo deforma a otro y sus valores determinan cambio en posición y color.
+Un campo deforma a otro y sus valores determinan cambio en posición y color(deformación y cambio de color).
 
 ### 4. Los invariantes que conservarán su identidad
 Las líneas nunca serán deformadas del todo.
@@ -45,7 +45,7 @@ Con SOPs hice cosas básicas como las líneas que se deformaran y un poquito de 
 Evidencia avance 02:
 <img width="1182" height="558" alt="image" src="https://github.com/user-attachments/assets/6ba0e308-7faa-4969-9d6d-9cb5dcc01b1d" />
 
-## Adelanto 3
+## Adelanto 03
 > [!NOTE]
 > Logro: El sistema "funciona". Esta relativamente terminado a como queria que se viera terminado.
 
@@ -59,3 +59,33 @@ Evidencia 03:
 
 Red "completa"
 <img width="1917" height="762" alt="image" src="https://github.com/user-attachments/assets/eff8c829-f6eb-4b0b-ad71-77628bbebaf8" />
+
+## Adelanto 04: 
+> [!NOTE]
+> Logro: La red ya se encuentra en un Base y expusimos los parámetros que queremos modificar
+
+<img width="1911" height="852" alt="image" src="https://github.com/user-attachments/assets/42bb1266-ccf7-41ea-973f-cf077e884fa7" />
+
+Red completa (pero falta agregar el "pulse")
+<img width="1803" height="616" alt="image" src="https://github.com/user-attachments/assets/f3ba4987-efdc-4167-9acd-7648b7c0c82e" />
+
+## Tabla. Parámetros expuestos
+| Nombre | Tipo | Rango | Efecto visual |
+|---------|------|--------|----------|
+| Twist | Float | 1 – 10 | Intensidad de la deformación aplicada, modifica parámetro strength del Twist  |
+| Noise | Float | 0 – 1 | Amplitud del Noise POP |
+| ColorSpeed | Float | 0.1 – 1 | Velocidad de la animación o enq que cambia la paleta de colores mediante un LFO |
+| Scale | Float | 0.1 – 1 | Varia la escala general de la geometría en el Render Simple TOP |
+| Randomize | Pulse | — | Genera una nueva variación de la composición(me gustaría la de twist al azar, tiene potenfcial |
+
+
+## Familias de soluciones
+<img width="1867" height="912" alt="image" src="https://github.com/user-attachments/assets/186eabd6-4a80-4676-acdb-20ad05ccdec8" />
+<img width="1890" height="887" alt="image" src="https://github.com/user-attachments/assets/cf3c88ba-cab9-4637-b69d-171e765d458f" />
+<img width="1917" height="952" alt="image" src="https://github.com/user-attachments/assets/97fc9c12-99b4-4ffb-a13f-ae39224eebfd" />
+
+> [!NOTE]
+>**Reflexión:**
+> La regla más significativa para este sistema fue al deformación, es la que tiene toda la magia de variaciones significativas en el sistema.
+> Al estar modificando, cacharreando y viendo qué ponerle al sistema en touchdesigner me equivocaba mucho al intentar conectar nodos, el accidente que logré evitar era renderizar mal la geometría porque estaba usando un render de TOP normal que volvia la imagen en 2D.
+> Lo que ajustaría antes de conectar a strudel es poner el random como pulse para tener la cuestión de eventos.
