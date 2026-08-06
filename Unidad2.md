@@ -30,6 +30,6 @@ Posición y color de las líneas.
 
 Evidencia avance 01:
 
-``` js
+![Base inicial del programa]<img width="1440" height="615" alt="image" src="https://github.com/user-attachments/assets/5e256f51-7b03-4309-a40b-0d26075cc416" />
 
-```
+Con SOPs hice cosas básicas como las líneas que se deformaran y un poquito de noise con LFOs para mover parámetros translate y rotate en y.
